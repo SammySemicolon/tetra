@@ -119,7 +119,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
 //    implementation files("mgui-1.18-3.3.0-deobf.jar")
-    implementation fg.deobf("se.mickelus.mutil:mutil:${mutil_version}")
+    implementation fg.deobf("curse.maven:mutil-351914:3640643")
     /*
     if (findProject(':mgui') != null) {
         implementation project(':mgui')
